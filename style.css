@@ -1,0 +1,16 @@
+.accordion__head{
+    background: gray;
+    padding: 10px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.accordion__child{
+    background: #EEE;
+    padding: 10px;
+    font-size: 12px;
+    display: none;
+    margin: 0px;
+}
+.accordion__head.active .accordion__child{
+    display: block;
+}
